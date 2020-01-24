@@ -1,7 +1,7 @@
 require 'pry'
 
 def roll_call_dwarves(dwarves)
-  dwarves.each do |dwarf|
-    puts `#{dwarf}`
+  dwarves.each_with_index do |dwarf, i|
+    puts `#{i} #{dwarf}`
   end
 end
