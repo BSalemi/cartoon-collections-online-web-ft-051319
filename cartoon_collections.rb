@@ -11,3 +11,6 @@ def summon_captain_planet(planeteer_calls)
     call.capitalize + "!"
   end
 end
+
+def long_planeteer_calls
+end 
