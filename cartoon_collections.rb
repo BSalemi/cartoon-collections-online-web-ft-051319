@@ -5,3 +5,6 @@ def roll_call_dwarves(arr)
     puts "#{i + 1}. #{dwarf}"#{dwarf}`
   end
 end
+
+def summon_captain_planet(arr)
+end 
